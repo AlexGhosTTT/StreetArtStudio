@@ -1,0 +1,259 @@
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+}
+.p0 {
+  padding: 0;
+}
+/*Head*/
+header {
+  height: 680px;
+  background-image: url('../img/bground.png');
+  background-size: cover;
+  background-position: 50% 0;
+}
+.headerBlog {
+  height: 500px;
+  background-image: url('../img/bground.png');
+  background-size: cover;
+  background-position: 50% 0;
+}
+nav {
+  height: 115px;
+  line-height: 115px;
+}
+.menu {
+  list-style-type: none;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.menu li a {
+  color: white;
+  text-transform: uppercase;
+  font-family: "RobotoRegular", sans-serif;
+}
+.menu li a:hover,
+.menu li a:focus {
+  text-decoration: none;
+  color: #e84545;
+}
+.top_line {
+  height: 1px;
+  background-color: #4b5974;
+}
+.mylogo {
+  height: 75px;
+}
+.logo {
+  padding-top: 30px;
+}
+.title_block {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+.title_block h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.title_block p {
+  font-size: 18px;
+  margin-bottom: 75px;
+}
+.my_btn {
+  background-color: #e84545;
+  border: none;
+  text-transform: uppercase;
+}
+/*EndHead*/
+/*Services*/
+/*First*/
+.service_first {
+  padding: 25px 0;
+}
+.param_block {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.param_block i {
+  font-size: 70px;
+  color: #e84545;
+}
+.param_block h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.param_block p {
+  font-size: 14px;
+}
+/*EndFirst*/
+/*Universal*/
+.service_text {
+  color: #333333;
+  text-align: center;
+}
+.service_text h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.service_text p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+/*EndUniversal*/
+/*EndService*/
+/*Work*/
+.work_block {
+  position: relative;
+  color: rgba(232, 69, 69, 0);
+}
+.work_block:hover .image_wrap {
+  opacity: 1;
+  background-color: rgba(232, 69, 69, 0.5);
+  color: white;
+}
+.image_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 69, 69, 0);
+  display: flex;
+  opacity: 0;
+  transition: all 0.75s;
+}
+.work_descr {
+  text-align: center;
+  margin: auto;
+}
+/*EndWork*/
+/*UsPick*/
+.carusel {
+  height: 250px;
+  background-color: white;
+}
+.item img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*EndUsPick*/
+/*Team*/
+.thumbnail {
+  border: 0px;
+}
+.caption h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.caption p {
+  text-align: center;
+  font-size: 14px;
+}
+.team_btns {
+  text-align: center;
+  margin-top: 15px;
+}
+.team_btns .team_btn {
+  color: #e84545;
+  padding: 5px 10px;
+}
+.team_btns .team_btn:hover {
+  color: #2b3554;
+}
+/*EndTeam*/
+/*Blog*/
+.blog h3 {
+  text-align: left;
+}
+.blog p {
+  text-align: left;
+}
+.date {
+  position: absolute;
+  width: 54px;
+  height: 70px;
+  background-color: #e84545;
+  left: 25px;
+  top: 160px;
+}
+.date p {
+  color: white;
+  text-align: center;
+  margin-top: 7.5px;
+}
+/*EndBlog*/
+/*Contacts*/
+.contacts {
+  text-align: center;
+}
+.contacts h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contacts h5 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#map {
+  height: 500px;
+  margin-bottom: 25px;
+}
+/*EndContacts*/
+/*Footer*/
+.MyFooter {
+  background-color: #2b3554;
+}
+.footerItem img {
+  padding-top: 30px;
+  height: 100px;
+}
+.footerItem p {
+  margin-left: 50px;
+  color: white;
+  font-size: 14px;
+}
+.footerItem2 {
+  margin-top: 100px;
+}
+.footerItem2 h5 {
+  padding-left: 10px;
+  margin: 5px;
+  color: white;
+}
+.footerItem2 .footer_btns {
+  margin-left: -100px;
+}
+.footerItem2 .footer_btn {
+  color: #e84545;
+  padding: 0 10px;
+}
+.footerItem2 .footer_btn:hover {
+  color: white;
+}
+.footerItem2 .input {
+  margin: 15px;
+}
+.footerItem2 .input input {
+  border-radius: 0px;
+}
+.footerItem2 .input span button {
+  border-radius: 0px;
+}
+.copr {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+/*EndFooter*/
